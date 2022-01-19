@@ -1,0 +1,82 @@
+.language-section{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.division{
+    transition: width 1s;
+    width: 45%;
+    position: absolute;
+}
+.division hr{
+    border-color: #c8ccd1;
+}
+.language-section .language-button{
+    width: 380px;
+    height: 65px;
+    position: relative;
+    bottom: 30px;
+    background-color: white;
+    padding: 10.5px 10px;
+    display: flex;
+    align-items: center;
+}
+.language-button button{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0px 5px;
+    border: 1px solid #a2a9b1;
+    background-color: #f8f9fa;
+    cursor: pointer;
+}
+.language-button button:hover{
+    background-color: #fff;
+}
+.language-button button span{
+    display: block;
+}
+.language-button button .letraChina{
+    background-image: linear-gradient(transparent,transparent),url('https://www.wikipedia.org/portal/wikipedia.org/assets/img/sprite-e99844f6.svg');
+    background-repeat: no-repeat;
+    background-position-y: 0px, -619px;
+    background-size: auto;
+    width: 20px;
+    height: 20px;
+}
+.language-button button .flechita{
+    background-image: linear-gradient(transparent,transparent),url(https://www.wikipedia.org/portal/wikipedia.org/assets/img/sprite-e99844f6.svg);
+    background-repeat: no-repeat;
+    background-position-y: 0px, -528px;
+    background-size: auto;
+    width: 15px;
+    height: 14px;
+}
+.language-button button span:nth-child(2){
+    font-size: 18px;
+    color: #36c;
+    font-weight: bold;
+}
+.hrColor{
+    border: 0;
+    border-top: 1px solid #c8ccd1;
+}
+.hrMiddle{
+    transition: margin 1s;
+    width: 97%;
+    margin: 0 auto;
+}
+/* javascript */
+.language-section .language-button .active{
+    border: 3px solid #36c;
+}
+.language-section .line-active{
+    transition: width 1s;
+    width: 80%;
+}
+.language-section .div-button-active{
+    transition: background-color 1s;
+    background-color: transparent;
+}

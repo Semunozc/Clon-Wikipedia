@@ -1,0 +1,226 @@
+.footer{
+    display: flex;
+    margin-top: 45px;
+}
+.aside-information{
+    width: 37%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #54595d;
+}
+.aside-information > div{
+    width: 90%;
+    padding: 7px 0 0 20px;
+}
+.wikipedia-fundation-information, .movile-apps{
+    display: flex;
+}
+.wikipedia-fundation-information{
+    min-height: 150px;
+    flex-wrap: wrap;
+}
+.movile-apps{
+    min-height: 200px;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+.movile-apps{
+    background-color: #f8f9fa;
+}
+.WImage{
+    display: block;
+    background-image: linear-gradient(transparent,transparent),url(https://www.wikipedia.org/portal/wikipedia.org/assets/img/sprite-e99844f6.svg);
+    background-repeat: no-repeat;
+    background-position-y: 0px, -267px;
+    background-size: 225px;
+    width: 100%;
+    height: 62px;
+}
+.WImage-information{
+    width: 80%;
+    font-size: 16px;
+    line-height: 20px;
+    padding-left: 5px;
+}
+.WImage-container , .movileWImage-container{
+    width: 55px;
+    height: 100%;
+}
+.wikipedia-fundation-information a{
+    display: block;
+    text-decoration: none;
+    color: #36c;
+    margin-top: 10px;
+}
+.WImage-information a:first-child{
+    display: block;
+    text-decoration: none;
+    color: #36c;
+    margin-bottom: 10px ;
+    font-weight: bold;
+    font-size: 19px;
+}
+.wikipedia-fundation-information a:hover, .WImage-information a:first-child:hover{
+    text-decoration: underline;
+}
+.movileWImage{
+    display: block;
+    background-image: linear-gradient(transparent,transparent),url(https://www.wikipedia.org/portal/wikipedia.org/assets/img/sprite-e99844f6.svg);
+    background-repeat: no-repeat;
+    background-position-y: 0px, -913px;
+    background-size: 225px;
+    width: 100%;
+    height: 62px;
+}
+.appstores-container{
+    display: flex;
+    margin-top: 15px;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+.appstores-container span{
+    display: block;
+}
+.appStoreImage{
+    background-image: linear-gradient(transparent,transparent),url(https://www.wikipedia.org/portal/wikipedia.org/assets/img/sprite-e99844f6.svg);
+    background-repeat: no-repeat;
+    background-position-y: 4px, -578px;
+    background-size: auto;
+    height: 40px;
+    width: 115px;
+}
+.googlePlayImage{
+    background-image: linear-gradient(transparent,transparent),url(https://www.wikipedia.org/portal/wikipedia.org/assets/img/sprite-e99844f6.svg);
+    background-repeat: no-repeat;
+    background-position-y: 4px, -539px;
+    background-size: auto;
+    height: 40px;
+    width: 135px;
+}
+.other-apps{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.other-apps-containers{
+    min-width: 157px;
+    width: 33%;
+    height: 125px;
+    padding: 13px;
+}
+.other-apps-containers:hover{
+    background-color: #eaecf0;
+    cursor: pointer;
+}
+.other-apps-containers-a{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    color: #54595d;
+    font-size: 17px;
+}
+.other-apps-containers-a .other-apps-imgs-container{
+    min-width: 50px;
+    width: 30%;
+    height: 100%;
+}
+.other-apps-information{
+    width: 70%;
+    height: 100%;
+    padding: 15px 0 0 6px;
+}
+.other-apps-information span{
+    display: block;
+}
+.other-apps-titles{
+    color: #36c;
+    margin-bottom: 10px;
+}
+.other-apps-imgs-container{
+    display: flex;
+    align-items: center;
+}
+.other-apps-imgs{
+    display: block;
+    margin: auto;
+    background-image: linear-gradient(transparent,transparent),url("https://www.wikipedia.org/portal/wikipedia.org/assets/img/sprite-e99844f6.svg");
+    background-repeat: no-repeat;
+    background-size: 232px;
+}
+.Commons-img{
+    background-position-y: 0px, -2px;
+    width: 58px;
+    height: 61px;
+    
+}
+.MediaWiki-img{
+    background-position-y: 0px, -61px;
+    width: 55px;
+    height: 56px;
+    
+}
+.Meta-Wiki-img{
+    background-position-y: -3px, -116px;
+    width: 51px;
+    height: 50px;
+    
+}
+.Wikibooks-img{
+    background-position-y: 0px, -166px;
+    width: 51px;
+    height: 50px;
+    
+}
+.Wikidata-img{
+    background-position-y: 0px, -217px;
+    width: 60px;
+    height: 50px;
+    
+}
+.Wikiquote-img{
+    background-position-y: 0px, -376px;
+    width: 55px;
+    height: 57px;
+    
+}
+.Wikisource-img{
+    background-position-y: 0px, -432px;
+    width: 54px;
+    height: 53px;
+    
+}
+.Wikispecies-img{
+    background-position-y: -1px, -485px;
+    width: 54px;
+    height: 53px;
+    
+}
+.Wikiversity-img{
+    background-position-y: -1px, -538px;
+    width: 58px;
+    height: 52px;
+    
+}
+.Wikivoyage-img{
+    background-position-y: -1px, -587px;
+    width: 47px;
+    height: 49px;
+    
+}
+.Wiktionary-img{
+    background-position-y: 0px, -636px;
+    width: 47px;
+    height: 49px;
+    
+}
+.Wikinews-img{
+    display: block;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-image: url("https://www.wikipedia.org/portal/wikipedia.org/assets/img/Wikinews-logo_sister.png");
+    background-size: 54px 34px;
+    width: 55px;
+    height: 38px;
+}

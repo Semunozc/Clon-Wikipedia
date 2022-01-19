@@ -1,0 +1,160 @@
+*{
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Lato,Helvetica,Arial,sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 62.5%;
+}
+header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 55px 0 5px 0;
+}
+header span{
+    display: block;
+    background-image: linear-gradient(transparent,transparent),url(https://www.wikipedia.org/portal/wikipedia.org/assets/img/sprite-e99844f6.svg);
+    background-repeat: no-repeat;
+    background-position-y: 17px, -252px;
+    background-size: auto;
+    width: 180px;
+    height: 35.5px;
+}
+header p{
+    font-size: 2rem;
+    margin-top: 7px;
+}
+main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+main img{
+    position: absolute;
+    margin-top: 100px;
+}
+main ul{
+    list-style: none;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+}
+main ul li{
+    display: flex;
+    justify-content: space-between;
+}
+main ul li:first-child{
+    width: 450px;
+}
+main ul li:nth-child(2){
+    width: 625px;
+}
+main ul li:nth-child(3){
+    width: 725px;
+}
+main ul li:nth-child(4){
+    width: 625px;
+}
+main ul li:nth-child(5){
+    width: 450px;
+}
+.Idiom-containers{
+    width: 155px;
+    height: 65px;
+    padding: 5px;
+    margin: 15px 0;
+}
+.Idiom-containers:hover{
+    background-color: #eaecf0;
+}
+.Idiom-containers a{
+    text-decoration: none;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.6rem;
+    color: #54595d;
+}
+.Idiom-Titles{
+    font-size: 2.3rem;
+    font-weight: bold;
+    color: #36c;
+}
+.Idiom-Titles:hover{
+    text-decoration: underline;
+}
+.input-section{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+.input-section div{
+    height: 50px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+}
+.input-section div input{
+    border: 1px solid #a2a9b1;
+    outline: none;
+    width: 90%;
+    height: 100%;
+    padding-left: 10px;
+    font-size: 20px;
+}
+.input-section div input:hover{
+    border-color: #72777d;
+}
+.input-section div input:focus{
+    border-color: #3366cc;
+    box-shadow: inset 0 0 0 1px #36c;
+}
+.input-section div select{
+    border: 0;
+    height: 30px;
+    position: absolute;
+    margin-left: 350px;
+    width: 60px;
+    font-size: 17px;
+    background-color: #ffffff;
+    outline: 0;
+    color: #54595d;
+}
+.input-section div select:hover{
+    background-color: #f8f9fa;
+
+}
+.input-section div select:focus{
+    border: 1px solid #3366cc;
+}
+.input-section div button{
+    justify-self: flex-end;
+    height: 100%;
+    width: 70px;
+    background-color: #3366cc;
+    border-color: #3366cc;
+    border: 0;
+    display: flex;
+    align-items: center;
+}
+.input-section div button:hover{
+    background: #447ff5;
+    border-color: #447ff5;
+    cursor: pointer;
+}
+.lupa{
+    display: block;
+    background-image: linear-gradient(transparent,transparent),url(https://www.wikipedia.org/portal/wikipedia.org/assets/img/sprite-e99844f6.svg);
+    background-repeat: no-repeat;
+    background-position-y: 15px, -697px;
+    background-size: auto;
+    width: 27px;
+    height: 23px;
+    margin: 0px auto;
+}

@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wikipedia</title>
+    <link rel="stylesheet" href="./css/style1.css">
+    <link rel="stylesheet" href="./css/style2.css">
+    <link rel="stylesheet" href="./css/style3.css">
+    <link rel="stylesheet" href="./css/style4.css">
+    <script type="text/javascript" src="./index.js"></script>
+</head>
+<body>
+    <header>
+        <span class="Wikipedia-tittle">
+
+        </span>
+        <p>
+            The Free Encyclopedia
+        </p>
+    </header>
+    <main>
+        <img src="https://www.wikipedia.org/portal/wikipedia.org/assets/img/Wikipedia-logo-v2@1.5x.png" alt="logo Wikipedia">
+        <ul>
+            <li>
+                <div class= "Idiom-containers">
+                    <a href="">
+                        <span class="Idiom-Titles">English</span>
+                        <span class="Idiom-Subtitles">6 383 000+ articles</span>
+                    </a>
+                </div>
+                <div class= "Idiom-containers">
+                    <a href="">
+                        <span class="Idiom-Titles">日本語</span>
+                        <span class="Idiom-Subtitles">1 292 000+ 記事</span>
+                    </a>
+                </div>
+            </li>
+            <li>
+                <div class= "Idiom-containers">
+                    <a href="">
+                        <span class="Idiom-Titles">Русский</span>
+                        <span class="Idiom-Subtitles">2 347 000+ статей</span>
+                    </a>
+                </div>
+                <div class= "Idiom-containers">
+                    <a href="">
+                        <span class="Idiom-Titles">Deutsch</span>
+                        <span class="Idiom-Subtitles">7 983 000+ Artikel</span>
+                    </a>
+                </div>
+            </li>
+            <li>
+                <div class= "Idiom-containers">
+                    <a href="">
+                        <span class="Idiom-Titles">Español</span>
+                        <span class="Idiom-Subtitles">6 383 000+ articulos</span>
+                    </a>
+                </div>
+                <div class= "Idiom-containers">
+                    <a href="">
+                        <span class="Idiom-Titles">Français</span>
+                        <span class="Idiom-Subtitles">1 292 000+ articles</span>
+                    </a>
+                </div>
+            </li>
+            <li>
+                <div class= "Idiom-containers">
+                    <a href="">
+                        <span class="Idiom-Titles">中文</span>
+                        <span class="Idiom-Subtitles">6 383 000+ 條目</span>
+                    </a>
+                </div>
+                <div class= "Idiom-containers">
+                    <a href="">
+                        <span class="Idiom-Titles">Italiano</span>
+                        <span class="Idiom-Subtitles">1 292 000+ voci</span>
+                    </a>
+                </div>
+            </li>
+            <li>
+                <div class= "Idiom-containers">
+                    <a href="">
+                        <span class="Idiom-Titles">Português</span>
+                        <span class="Idiom-Subtitles">6 383 000+ artigos</span>
+                    </a>
+                </div>
+                <div class= "Idiom-containers">
+                    <a href="">
+                        <span class="Idiom-Titles">Polski</span>
+                        <span class="Idiom-Subtitles">1 292 000+ hasel</span>
+                    </a>
+                </div>
+            </li>
+        </ul>
+    </main>
+    <section class="input-section">
+        <div>
+            <input type="text">
+            <select name="Idiom">
+                <option value="af" lang="af">Afrikaans</option>
+                <option value="pl" lang="pl">Polski</option>
+                <option value="sk" lang="sk">Slovenčina</option><!-- Angličtina -->
+                <option value="ar" lang="ar">العربية</option><!-- Al-ʿArabīyah -->
+                <option value="ast" lang="ast">Asturianu</option>
+                <option value="az" lang="az">Azərbaycanca</option>
+                <option value="bg" lang="bg">Български</option><!-- Bǎlgarski -->
+                <option value="nan" lang="nan">Bân-lâm-gú / Hō-ló-oē</option>
+                <option value="bn" lang="bn">বাংলা</option><!-- Bangla -->
+                <option value="be" lang="be">Беларуская</option><!-- Belaruskaya -->
+                <option value="ca" lang="ca">Català</option>
+                <option value="cs" lang="cs">Čeština</option><!-- čeština -->
+                <option value="cy" lang="cy">Cymraeg</option><!-- Cymraeg -->
+                <option value="da" lang="da">Dansk</option>
+                <option value="de" lang="de">Deutsch</option>
+                <option value="et" lang="et">Eesti</option>
+                <option value="el" lang="el">Ελληνικά</option><!-- Ellīniká -->
+                <option value="en" lang="en" selected=selected>English</option><!-- English -->
+                <option value="es" lang="es">Español</option>
+                <option value="eo" lang="eo">Esperanto</option>
+                <option value="eu" lang="eu">Euskara</option>
+                <option value="fa" lang="fa">فارسی</option><!-- Fārsi -->
+                <option value="fr" lang="fr">Français</option>
+                <option value="gl" lang="gl">Galego</option>
+                <option value="ko" lang="ko">한국어</option><!-- Hangugeo -->
+                <option value="hy" lang="hy">Հայերեն</option><!-- Hayeren -->
+                <option value="hi" lang="hi">हिन्दी</option><!-- Hindī -->
+                <option value="hr" lang="hr">Hrvatski</option>
+                <option value="id" lang="id">Bahasa Indonesia</option>
+                <option value="it" lang="it">Italiano</option>
+                <option value="he" lang="he">עברית</option><!-- Ivrit -->
+                <option value="ka" lang="ka">ქართული</option><!-- Kartuli -->
+                <option value="la" lang="la">Latina</option>
+                <option value="lv" lang="lv">Latviešu</option>
+                <option value="lt" lang="lt">Lietuvių</option>
+                <option value="hu" lang="hu">Magyar</option>
+                <option value="mk" lang="mk">Македонски</option><!-- Makedonski -->
+                <option value="arz" lang="arz">مصرى</option><!-- Maṣrī -->
+                <option value="ms" lang="ms">Bahasa Melayu</option>
+                <option value="min" lang="min">Bahaso Minangkabau</option>
+                <option value="nl" lang="nl">Nederlands</option>
+                <option value="ja" lang="ja">日本語</option><!-- Nihongo -->
+                <option value="no" lang="nb">Norsk (bokmål)</option>
+                <option value="nn" lang="nn">Norsk (nynorsk)</option>
+                <option value="ce" lang="ce">Нохчийн</option><!-- Noxçiyn -->
+                <option value="uz" lang="uz">Oʻzbekcha / Ўзбекча</option>
+                <option value="pt" lang="pt">Português</option>
+                <option value="kk" lang="kk">Қазақша / Qazaqşa / قازاقشا</option>
+                <option value="ro" lang="ro">Română</option><!-- Română -->
+                <option value="ru" lang="ru">Русскийhttp://127.0.0.1:5500/CursoPracticoCssHTML/WikipediaClon/index.html</option><!-- Russkiy -->
+                <option value="simple" lang="en">Simple English</option>
+                <option value="ceb" lang="ceb">Sinugboanong Binisaya</option>
+                <option value="sl" lang="sl">Slovenščina</option>
+                <option value="sr" lang="sr">Српски / Srpski</option>
+                <option value="sh" lang="sh">Srpskohrvatski / Српскохрватски</option>
+                <option value="fi" lang="fi">Suomi</option><!-- suomi -->
+                <option value="sv" lang="sv">Svenska</option>
+                <option value="ta" lang="ta">தமிழ்</option><!-- Tamiḻ -->
+                <option value="tt" lang="tt">Татарча / Tatarça</option>
+                <option value="th" lang="th">ภาษาไทย</option><!-- Phasa Thai -->
+                <option value="tg" lang="tg">Тоҷикӣ</option><!-- Tojikī -->
+                <option value="azb" lang="azb">تۆرکجه</option><!-- Türkce -->
+                <option value="tr" lang="tr">Türkçe</option><!-- Türkçe -->
+                <option value="uk" lang="uk">Українська</option><!-- Ukrayins’ka -->
+                <option value="ur" lang="ur">اردو</option><!-- Urdu -->
+                <option value="vi" lang="vi">Tiếng Việt</option>
+                <option value="vo" lang="vo">Volapük</option>
+                <option value="war" lang="war">Winaray</option>
+                <option value="zh-yue" lang="yue">粵語</option><!-- Yuht Yúh / Jyut6 jyu5 -->
+                <option value="zh" lang="zh">中文</option><!-- Zhōngwén -->
+                <option value="my" lang="my">မြန်မာဘာသာ</option>
+            </select>
+            <button>
+                <span class="lupa"></span>
+            </button>
+        </div>
+    </section>
+    <section class="language-section">
+        <div class="desplegable">
+            <h2>
+                <div class="linea"></div>
+                <div class="desplegable-tittle">
+                    <span>1 000 000+ articles</span>
+                </div>
+                <div class="linea"></div>
+            </h2>
+            <div class="desplegable-listas">
+                <ul class="PrimeraListaDesplegable">
+                    <li><a href="" >Polski</a></li>
+                    <li><a href="" >العربية</a></li>
+                    <li><a href="" >Deutsch</a></li>
+                    <li><a href="" >English</a></li>
+                    <li><a href="" >Español</a></li>
+                    <li><a href="" >Français</a></li>
+                    <li><a href="" >Italiano</a></li>
+                    <li><a href="" >مصرى</a></li>
+                    <li><a href="" >Nederlands</a></li>
+                    <li><a href="" >日本語</a></li>
+                    <li><a href="" >Português</a></li>
+                    <li><a href="" >Русский</a></li>
+                    <li><a href="" >Sinugboanong Binisaya</a></li>
+                    <li><a href="" >Svenska</a></li>
+                    <li><a href="" >Українська</a></li>
+                    <li><a href="" >Tiếng Việt</a></li>
+                    <li><a href="" >Winaray</a></li>
+                    <li><a href="" >中文</a></li>
+                </ul>
+            </div>
+            <h2>
+                <div class="linea"></div>
+                <div class="desplegable-tittle">
+                    <span>1 000 000+ articles</span>
+                </div>
+                <div class="linea"></div>
+            </h2>
+            <div class="desplegable-listas">
+                <ul class="SegundaListaDesplegable">
+                    <li><a href="" >Polski</a></li>
+                    <li><a href="" >العربية</a></li>
+                    <li><a href="" >Deutsch</a></li>
+                    <li><a href="" >English</a></li>
+                    <li><a href="" >Español</a></li>
+                    <li><a href="" >Français</a></li>
+                    <li><a href="" >Italiano</a></li>
+                    <li><a href="" >مصرى</a></li>
+                    <li><a href="" >Nederlands</a></li>
+                    <li><a href="" >日本語</a></li>
+                    <li><a href="" >Polski</a></li>
+                    <li><a href="" >العربية</a></li>
+                    <li><a href="" >Deutsch</a></li>
+                    <li><a href="" >English</a></li>
+                    <li><a href="" >Español</a></li>
+                    <li><a href="" >Français</a></li>
+                    <li><a href="" >Italiano</a></li>
+                    <li><a href="" >مصرى</a></li>
+                    <li><a href="" >Nederlands</a></li>
+                    <li><a href="" >日本語</a></li>
+                    <li><a href="" >Português</a></li>
+                    <li><a href="" >Русский</a></li>
+                    <li><a href="" >Sinugboanong Binisaya</a></li>
+                    <li><a href="" >Svenska</a></li>
+                    <li><a href="" >Українська</a></li>
+                    <li><a href="" >Tiếng Việt</a></li>
+                    <li><a href="" >Winaray</a></li>
+                    <li><a href="" >中文</a></li>
+                    <li><a href="" >Português</a></li>
+                    <li><a href="" >Русский</a></li>
+                    <li><a href="" >Sinugboanong Binisaya</a></li>
+                    <li><a href="" >Svenska</a></li>
+                    <li><a href="" >Українська</a></li>
+                    <li><a href="" >Tiếng Việt</a></li>
+                    <li><a href="" >Winaray</a></li>
+                    <li><a href="" >中文</a></li>
+                </ul>
+            </div>
+            <h2>
+                <div class="linea"></div>
+                <div class="desplegable-tittle">
+                    <span>1 000 000+ articles</span>
+                </div>
+                <div class="linea"></div>
+            </h2>
+            <div class="desplegable-listas">
+                <ul class="TerceraListaDesplegable">
+                    <li><a href="" >Polski</a></li>
+                    <li><a href="" >العربية</a></li>
+                    <li><a href="" >Deutsch</a></li>
+                    <li><a href="" >English</a></li>
+                    <li><a href="" >Español</a></li>
+                    <li><a href="" >Français</a></li>
+                    <li><a href="" >Italiano</a></li>
+                    <li><a href="" >مصرى</a></li>
+                    <li><a href="" >Nederlands</a></li>
+                    <li><a href="" >日本語</a></li>
+                    <li><a href="" >Português</a></li>
+                    <li><a href="" >Русский</a></li>
+                    <li><a href="" >Polski</a></li>
+                    <li><a href="" >العربية</a></li>
+                    <li><a href="" >Deutsch</a></li>
+                    <li><a href="" >English</a></li>
+                    <li><a href="" >Español</a></li>
+                    <li><a href="" >Français</a></li>
+                    <li><a href="" >Italiano</a></li>
+                    <li><a href="" >مصرى</a></li>
+                    <li><a href="" >Nederlands</a></li>
+                    <li><a href="" >日本語</a></li>
+                    <li><a href="" >Português</a></li>
+                    <li><a href="" >Русский</a></li>
+                    <li><a href="" >Sinugboanong Binisaya</a></li>
+                    <li><a href="" >Svenska</a></li>
+                    <li><a href="" >Українська</a></li>
+                    <li><a href="" >Tiếng Việt</a></li>
+                    <li><a href="" >Winaray</a></li>
+                    <li><a href="" >中文</a></li>
+                    <li><a href="" >Polski</a></li>
+                    <li><a href="" >العربية</a></li>
+                    <li><a href="" >Deutsch</a></li>
+                    <li><a href="" >English</a></li>
+                    <li><a href="" >Español</a></li>
+                    <li><a href="" >Français</a></li>
+                    <li><a href="" >Italiano</a></li>
+                    <li><a href="" >مصرى</a></li>
+                    <li><a href="" >Nederlands</a></li>
+                    <li><a href="" >日本語</a></li>
+                    <li><a href="" >Português</a></li>
+                    <li><a href="" >Русский</a></li>
+                    <li><a href="" >Sinugboanong Binisaya</a></li>
+                    <li><a href="" >Svenska</a></li>
+                    <li><a href="" >Українська</a></li>
+                    <li><a href="" >Tiếng Việt</a></li>
+                    <li><a href="" >Winaray</a></li>
+                    <li><a href="" >中文</a></li>
+                    <li><a href="" >Sinugboanong Binisaya</a></li>
+                    <li><a href="" >Svenska</a></li>
+                    <li><a href="" >Українська</a></li>
+                    <li><a href="" >Tiếng Việt</a></li>
+                    <li><a href="" >Winaray</a></li>
+                    <li><a href="" >中文</a></li>
+                </ul>
+            </div>
+            <h2>
+                <div class="linea"></div>
+                <div class="desplegable-tittle">
+                    <span>1 000 000+ articles</span>
+                </div>
+                <div class="linea"></div>
+            </h2>
+            <div class="desplegable-listas">
+                <ul class="CuartaListaDesplegable">
+                    <li><a href="" >Polski</a></li>
+                    <li><a href="" >العربية</a></li>
+                    <li><a href="" >Deutsch</a></li>
+                    <li><a href="" >English</a></li>
+                    <li><a href="" >Español</a></li>
+                    <li><a href="" >Français</a></li>
+                    <li><a href="" >Italiano</a></li>
+                    <li><a href="" >مصرى</a></li>
+                    <li><a href="" >Nederlands</a></li>
+                    <li><a href="" >日本語</a></li>
+                    <li><a href="" >Português</a></li>
+                    <li><a href="" >Русский</a></li>
+                    <li><a href="" >Sinugboanong Binisaya</a></li>
+                    <li><a href="" >Svenska</a></li>
+                    <li><a href="" >Українська</a></li>
+                    <li><a href="" >Tiếng Việt</a></li>
+                    <li><a href="" >Winaray</a></li>
+                    <li><a href="" >中文</a></li>
+                    <li><a href="" >Polski</a></li>
+                    <li><a href="" >العربية</a></li>
+                    <li><a href="" >Deutsch</a></li>
+                    <li><a href="" >Polski</a></li>
+                    <li><a href="" >العربية</a></li>
+                    <li><a href="" >Deutsch</a></li>
+                    <li><a href="" >English</a></li>
+                    <li><a href="" >Español</a></li>
+                    <li><a href="" >Français</a></li>
+                    <li><a href="" >Italiano</a></li>
+                    <li><a href="" >مصرى</a></li>
+                    <li><a href="" >Nederlands</a></li>
+                    <li><a href="" >日本語</a></li>
+                    <li><a href="" >Português</a></li>
+                    <li><a href="" >Русский</a></li>
+                    <li><a href="" >Sinugboanong Binisaya</a></li>
+                    <li><a href="" >Svenska</a></li>
+                    <li><a href="" >Українська</a></li>
+                    <li><a href="" >Tiếng Việt</a></li>
+                    <li><a href="" >Winaray</a></li>
+                    <li><a href="" >中文</a></li>
+                    <li><a href="" >Polski</a></li>
+                    <li><a href="" >العربية</a></li>
+                    <li><a href="" >Deutsch</a></li>
+                    <li><a href="" >Polski</a></li>
+                    <li><a href="" >العربية</a></li>
+                    <li><a href="" >Deutsch</a></li>
+                    <li><a href="" >English</a></li>
+                    <li><a href="" >Español</a></li>
+                    <li><a href="" >Français</a></li>
+                    <li><a href="" >Italiano</a></li>
+                    <li><a href="" >مصرى</a></li>
+                    <li><a href="" >Nederlands</a></li>
+                    <li><a href="" >日本語</a></li>
+                    <li><a href="" >Português</a></li>
+                    <li><a href="" >Русский</a></li>
+                    <li><a href="" >Sinugboanong Binisaya</a></li>
+                    <li><a href="" >Svenska</a></li>
+                    <li><a href="" >Українська</a></li>
+                    <li><a href="" >Tiếng Việt</a></li>
+                    <li><a href="" >Winaray</a></li>
+                    <li><a href="" >中文</a></li>
+                    <li><a href="" >Polski</a></li>
+                    <li><a href="" >العربية</a></li>
+                    <li><a href="" >Deutsch</a></li>
+                    <li><a href="" >Polski</a></li>
+                    <li><a href="" >العربية</a></li>
+                    <li><a href="" >Deutsch</a></li>
+                    <li><a href="" >English</a></li>
+                    <li><a href="" >Español</a></li>
+                    <li><a href="" >Français</a></li>
+                    <li><a href="" >Italiano</a></li>
+                    <li><a href="" >مصرى</a></li>
+                    <li><a href="" >Nederlands</a></li>
+                    <li><a href="" >日本語</a></li>
+                    <li><a href="" >Português</a></li>
+                    <li><a href="" >Русский</a></li>
+                    <li><a href="" >Sinugboanong Binisaya</a></li>
+                    <li><a href="" >Svenska</a></li>
+                    <li><a href="" >Українська</a></li>
+                    <li><a href="" >Tiếng Việt</a></li>
+                    <li><a href="" >Winaray</a></li>
+                    <li><a href="" >中文</a></li>
+                    <li><a href="" >Polski</a></li>
+                    <li><a href="" >العربية</a></li>
+                    <li><a href="" >Deutsch</a></li>
+                </ul>
+            </div>
+            <h2>
+                <div class="linea"></div>
+                <div class="desplegable-tittle">
+                    <span>1 000 000+ articles</span>
+                </div>
+                <div class="linea"></div>
+            </h2>
+            <div class="desplegable-listas">
+                <ul class="QuintaListaDesplegable">
+                    <li><a href="" >Polski</a></li>
+                    <li><a href="" >العربية</a></li>
+                    <li><a href="" >Deutsch</a></li>
+                    <li><a href="" >English</a></li>
+                    <li><a href="" >Español</a></li>
+                    <li><a href="" >Français</a></li>
+                    <li><a href="" >Italiano</a></li>
+                    <li><a href="" >مصرى</a></li>
+                    <li><a href="" >Nederlands</a></li>
+                    <li><a href="" >日本語</a></li>
+                    <li><a href="" >Português</a></li>
+                    <li><a href="" >Русский</a></li>
+                    <li><a href="" >Sinugboanong Binisaya</a></li>
+                    <li><a href="" >Svenska</a></li>
+                    <li><a href="" >Українська</a></li>
+                    <li><a href="" >Tiếng Việt</a></li>
+                    <li><a href="" >Winaray</a></li>
+                    <li><a href="" >中文</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- ///////////////////////////////////// -->
+        <div class="division">
+            <hr class="hrColor">
+        </div>
+        <div class="language-button">
+            <button>
+                <span class="letraChina"></span>
+                <span>Read Wikipedia in your language </span>
+                <span class="flechita"></span>
+            </button>
+        </div>
+    </section>
+    <hr class="hrMiddle hrColor">
+    <section class="footer">
+        <div class="aside-information">
+            <div class="wikipedia-fundation-information">
+                <div class="WImage-container"><span class="WImage"></span></div>
+                <div class="WImage-information">
+                    <span>Wikipedia is hosted by the Wikimedia Foundation, a non-profit organization that also hosts a range of other projects.</span>
+                    <a href="">You can support our work with a donation.</a>
+                </div>
+            </div>
+            <div class="movile-apps">
+                <div class="movileWImage-container">
+                    <span class="movileWImage"></span>
+                </div>
+                <div class="WImage-information">
+                    <a href="">Download Wikipedia for Android or iOS</a>
+                    <span>Save your favorite articles to read offline, sync your reading lists across devices and customize your reading experience with the official Wikipedia app.</span>
+                    <a href="" class="appstores-container">
+                        <span class="googlePlayImage"></span>
+                        <span class="appStoreImage"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="other-apps">
+            <div class="other-apps-containers">
+                <a href=""  class="other-apps-containers-a">
+                    <div class="other-apps-imgs-container">
+                        <span class="other-apps-imgs Commons-img"></span>
+                    </div>
+                    <div class="other-apps-information">
+                        <span class="other-apps-titles">Commons</span>
+                        <span>Freely usable photos & more</span>
+                    </div>
+                </a>
+            </div>
+            <div class="other-apps-containers">
+                <a href=""  class="other-apps-containers-a">
+                    <div class="other-apps-imgs-container">
+                        <span class="other-apps-imgs Wikivoyage-img"></span>
+                    </div>
+                    <div class="other-apps-information">
+                        <span class="other-apps-titles">Wikivoyage</span>
+                        <span>Free travel guide</span>
+                    </div>
+                </a>
+            </div>
+            <div class="other-apps-containers">
+                <a href="" class="other-apps-containers-a">
+                    <div class="other-apps-imgs-container">
+                        <span class="other-apps-imgs Wiktionary-img"></span>
+                    </div>
+                    <div class="other-apps-information">
+                        <span class="other-apps-titles">Wiktionary</span>
+                        <span>Free dictionary</span>
+                    </div>
+                </a>
+            </div>
+            <div class="other-apps-containers">
+                <a href="" class="other-apps-containers-a">
+                    <div class="other-apps-imgs-container">
+                        <span class="other-apps-imgs  Wikibooks-img"></span>
+                    </div>
+                    <div class="other-apps-information">
+                        <span class="other-apps-titles">Wikibooks</span>
+                        <span>Free textbooks</span>
+                    </div>
+                </a>
+            </div>
+            <div class="other-apps-containers">
+                <a href="" class="other-apps-containers-a">
+                    <div class="other-apps-imgs-container">
+                        <span class="Wikinews-img"></span>
+                    </div>
+                    <div class="other-apps-information">
+                        <span class="other-apps-titles">Wikinews</span>
+                        <span>Free news source</span>
+                    </div>
+                </a>
+            </div>
+            <div class="other-apps-containers">
+                <a href="" class="other-apps-containers-a">
+                    <div class="other-apps-imgs-container">
+                        <span class="other-apps-imgs Wikidata-img"></span>
+                    </div>
+                    <div class="other-apps-information">
+                        <span class="other-apps-titles">Wikidata</span>
+                        <span>Free knowledge base</span>
+                    </div>
+                </a>
+            </div>
+            <div class="other-apps-containers">
+                <a href="" class="other-apps-containers-a">
+                    <div class="other-apps-imgs-container">
+                        <span class="other-apps-imgs Wikiversity-img"></span>
+                    </div>
+                    <div class="other-apps-information">
+                        <span class="other-apps-titles">Wikiversity</span>
+                        <span>Free course materials</span>
+                    </div>
+                </a>
+            </div>
+            <div class="other-apps-containers">
+                <a href="" class="other-apps-containers-a">
+                    <div class="other-apps-imgs-container">
+                        <span class="other-apps-imgs Wikiquote-img"></span>
+                    </div>
+                    <div class="other-apps-information">
+                        <span class="other-apps-titles">Wikiquote</span>
+                        <span>Free quote compendium</span>
+                    </div>
+                </a>
+            </div>
+            <div class="other-apps-containers">
+                <a href="" class="other-apps-containers-a">
+                    <div class="other-apps-imgs-container">
+                        <span class="other-apps-imgs MediaWiki-img"></span>
+                    </div>
+                    <div class="other-apps-information">
+                        <span class="other-apps-titles">MediaWiki</span>
+                        <span>Free & open wiki application</span>
+                    </div>
+                </a>
+            </div>
+            <div class="other-apps-containers">
+                <a href="" class="other-apps-containers-a">
+                    <div class="other-apps-imgs-container">
+                        <span class="other-apps-imgs Wikisource-img"></span>
+                    </div>
+                    <div class="other-apps-information">
+                        <span class="other-apps-titles">Wikisource</span>
+                        <span>Free library</span>
+                    </div>
+                </a>
+            </div>
+            <div class="other-apps-containers">
+                <a href="" class="other-apps-containers-a">
+                    <div class="other-apps-imgs-container">
+                        <span class="other-apps-imgs Wikispecies-img"></span>
+                    </div>
+                    <div class="other-apps-information">
+                        <span class="other-apps-titles">Wikispecies</span>
+                        <span>Free species directory</span>
+                    </div>
+                </a>
+            </div>
+            <div class="other-apps-containers">
+                <a href="" class="other-apps-containers-a">
+                    <div class="other-apps-imgs-container">
+                        <span class="other-apps-imgs Meta-Wiki-img"></span>
+                    </div>
+                    <div class="other-apps-information">
+                        <span class="other-apps-titles">Meta-Wiki</span>
+                        <span>Community coordination & documentation</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+    <hr class="hrMiddle hrColor">
+    <footer>
+        
+    </footer>
+</body>
+</html>

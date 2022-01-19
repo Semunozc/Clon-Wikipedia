@@ -1,0 +1,72 @@
+.desplegable{
+    transition: max-height .5s ease-in;
+    max-height: 0;
+    overflow: hidden;
+    width: 80%;
+    background-color: #fff;
+    position: absolute;
+    padding: 35px 25px 0px 25px;
+}
+.desplegable h2{
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+}
+.desplegable-tittle{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    margin: 0px 15px;
+    color: #263e56;
+    font-size: 18px;
+    font-weight: 400px;
+}
+.desplegable h2 .linea{
+    height: 50%;
+    width: 100px;
+    border-bottom: 1px solid #c8ccd1;
+    flex-grow: 1;
+}
+.desplegable-listas ul{
+    list-style: none;
+    display: flex;
+    font-size: 20px;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.desplegable-listas ul li {
+    margin: 3px 0;
+}
+.desplegable-listas ul li a{
+    text-decoration: none;
+    color: #36c;
+}
+.desplegable-listas ul li a:hover{
+    text-decoration: underline;
+}
+.PrimeraListaDesplegable{
+    height: 200px;
+}
+.SegundaListaDesplegable{
+    height: 400px;
+}
+.TerceraListaDesplegable{
+    height: 500px;
+}
+.CuartaListaDesplegable{
+    height: 550px;
+}
+.QuintaListaDesplegable{
+    height: 200px;
+}
+/* Javascript */
+hr.LanguageButtonActive{
+    transition: margin-top 1s;
+    margin-top: 2150px;
+}
+.language-section div.LanguageButtonActive{
+    transition: max-height 1s ease-in;
+    max-height: 3000px;
+    background-color: #f8f9fa;
+    height: auto;
+}
